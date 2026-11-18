@@ -1,0 +1,85 @@
+.hero {
+  padding: 185px 75px 120px;
+  background: linear-gradient(
+    180deg,
+    rgba(197, 224, 252, 0.6) 0%,
+    #ffffff 100%
+  );
+}
+
+.hero__content {
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero__greeting {
+  color: #808080;
+  font-size: 14px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.hero__name {
+  margin-top: 16px;
+  color: #121212;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.hero__title {
+  margin-top: 20px;
+  color: #3f96f3;
+  font-size: 20px;
+}
+
+.hero__blurb {
+  margin-top: 24px;
+  color: #808080;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.hero__actions {
+  margin-top: 24px;
+  display: flex;
+  gap: 15px;
+}
+
+.hero__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  padding: 0 22px;
+  border: 1px solid #3f96f3;
+  border-radius: 6px;
+  font-size: 15px;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.hero__button_type_primary {
+  background-color: #3f96f3;
+  color: #ffffff;
+}
+
+.hero__button_type_primary:hover {
+  background-color: #2f7fd6;
+  border-color: #2f7fd6;
+}
+
+.hero__button_type_secondary {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+.hero__button_type_secondary:hover {
+  background-color: #eef4ff;
+}
