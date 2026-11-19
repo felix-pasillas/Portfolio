@@ -19,3 +19,18 @@
   font-size: 16px;
   line-height: 1.7;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 60px 20px 70px;
+  }
+
+  .footer__title {
+    font-size: 30px;
+  }
+
+  .footer__text {
+    margin: 24px 0 28px;
+    font-size: 14px;
+  }
+}

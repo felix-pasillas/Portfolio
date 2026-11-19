@@ -17,6 +17,11 @@
   color: #121212;
   font-size: 16px;
   text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.header__brand:hover {
+  color: #3f96f3;
 }
 
 .header__nav {
@@ -35,6 +40,71 @@
   color: #121212;
 }
 
-.header__brand:hover {
-  color: #3f96f3;
+.header__contact {
+  display: none;
+}
+
+.header__menu-button {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin-right: -8px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__menu-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 20px;
+    border-bottom: 1px solid #eef4ff;
+  }
+
+  .header__menu-button {
+    display: flex;
+  }
+
+  .header__nav {
+    display: none;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 70px 40px 40px;
+    overflow-y: auto;
+    background-color: #ffffff;
+  }
+
+  .header__nav_open {
+    display: flex;
+  }
+
+  .header__link {
+    color: #121212;
+    font-size: 26px;
+  }
+
+  .header__link:hover {
+    color: #3f96f3;
+  }
+
+  .header__contact {
+    display: block;
+    width: 100%;
+    margin-top: auto;
+    padding-top: 24px;
+    border-top: 1px solid #e6e6e6;
+  }
 }
