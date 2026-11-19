@@ -5,6 +5,9 @@
   border: 1px solid #e6e6e6;
   border-radius: 8px;
   background-color: #ffffff;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .project-card__image {
@@ -65,4 +68,9 @@
 .project-card__icon {
   width: 14px;
   height: 14px;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(63, 150, 243, 0.15);
 }

@@ -34,3 +34,7 @@
 .header__link:hover {
   color: #121212;
 }
+
+.header__brand:hover {
+  color: #3f96f3;
+}
