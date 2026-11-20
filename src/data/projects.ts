@@ -1,7 +1,7 @@
 import type { Project } from "../types";
 import workspacehubImg from "../assets/projects/workspacehub.png";
 import meshaiImg from "../assets/projects/meshai.png";
-import recipeBrowserImg from "../assets/projects/recipe-browser.png";
+import flashcardsImg from "../assets/projects/flashcards.png";
 
 export const projects: Project[] = [
   {
@@ -27,14 +27,14 @@ export const projects: Project[] = [
     liveUrl: "https://mytodoapp.surfnet.ca",
   },
   {
-    id: "recipe-browser",
-    name: "Recipe Browser",
+    id: "flashcards",
+    name: "Interactive Study Cards",
     description: [
-      "A recipe app with live filtering, user accounts, and a personal favorites list that persists across sessions.",
-      "Built with React, TypeScript, and Express, with Vitest tests.",
+      "A flashcard study app for creating and managing custom decks, flipping cards, and practicing in a carousel view.",
+      "Built with vanilla JavaScript, HTML, and CSS, syncing decks through a remote REST API with the Fetch API.",
     ],
-    image: recipeBrowserImg,
-    githubUrl: "https://github.com/felix-pasillas/ai-se_recipe-browser-auth",
-    liveUrl: "#",
+    image: flashcardsImg,
+    githubUrl: "https://github.com/felix-pasillas/ai-se_project_flashcards",
+    liveUrl: "https://felix-pasillas.github.io/ai-se_project_flashcards",
   },
 ];
