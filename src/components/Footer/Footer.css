@@ -1,0 +1,36 @@
+.footer {
+  padding: 80px 75px 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__title {
+  color: #121212;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.footer__text {
+  max-width: 450px;
+  margin: 40px 0 36px;
+  color: #808080;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 60px 20px 70px;
+  }
+
+  .footer__title {
+    font-size: 30px;
+  }
+
+  .footer__text {
+    margin: 24px 0 28px;
+    font-size: 14px;
+  }
+}
