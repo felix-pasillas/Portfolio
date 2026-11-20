@@ -13,7 +13,7 @@ export const projects: Project[] = [
     ],
     image: workspacehubImg,
     githubUrl: "https://github.com/felix-pasillas/ai-se_project_workspacehub",
-    liveUrl: "#",
+    liveUrl: "https://ai-se-project-workspacehub-pyoi.vercel.app",
   },
   {
     id: "meshai",
